@@ -1,0 +1,116 @@
+.lcmain{
+background-color:#23292E;
+}
+.home-header{
+    background-color: #23292E;
+    
+}
+.home-header-container{
+    margin-left:2rem;
+    margin-right:2rem;
+    display:flex;
+    position:relative;
+    padding:1rem;
+    /* border:rgb(123, 255, 0) solid 1px; */
+
+}
+.home-header-logo{
+    height:3rem;
+    width:15rem;
+}
+.home-header-logo img{
+    height:inherit;
+    width:inherit;
+}
+.home-header-login-detail{
+    position:absolute;
+    right:0;
+    top:1rem;
+    color:grey;
+    text-align: center;
+}
+
+.lcmain-icon-home{
+    font-size: 40px;
+    color:grey;
+    margin-right:1rem;
+    margin-top:0.5rem;
+    cursor:pointer;
+}
+.lcmain-user-icon{
+    padding-right:0.5rem;
+    margin-top:0.5rem;
+    font-size: 20px;
+}
+.lcmain-drop-icon{
+    padding-left:0.5rem;
+}
+.home-header-login-detail-div2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.lcmain2-div1{
+    /* overflow: auto; */
+    display:flex;
+    flex-wrap: wrap;
+    padding-top:1rem;
+    padding-bottom:0.5rem;
+    gap:0.5rem;
+    /* white-space: nowrap; */
+}
+.lcmain2-div1a{
+    width:10rem;
+    padding:1rem;
+    border-radius: 2rem;
+    width:10rem;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+    cursor:pointer;
+}
+.lcmain2-div1a-grey{
+    border:grey solid 1px;
+}
+.lcmain2-div1a-yellow-onclick{
+    border:#DAB314 solid 1px;
+}
+.lcmain2-div1a img{
+    width:2rem;
+    height:2rem;
+}
+.lcmain2{
+    position: relative;
+}
+.lcmain2-div1{
+    position: sticky;
+    top: 0;
+    z-index:999;
+    background-color: #23292E;
+}
+.lcmain2-div2{
+
+}
+@media screen and (max-width: 1150px){
+.lcmain2-div1{
+    overflow: auto;
+    white-space: nowrap;
+    justify-content: unset;
+    flex-wrap: unset;
+}
+
+}
+@media screen and (max-width: 500px){
+    .lcmain2-div1a{
+        padding:0.5rem;
+        font-size: 12px;
+        border-radius: 1rem;
+    }
+    .lcmain2-div1a img{
+        width:1rem;
+        height:1rem;
+    }
+
+}
